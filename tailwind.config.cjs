@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'rose': ['"Red Rose"', 'cursive'],
+        'sora': ['"Sora"', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 };
