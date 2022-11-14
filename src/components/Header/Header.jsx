@@ -1,6 +1,9 @@
 import React from 'react';
 import frame1 from '../../assets/frame1.png';
 import image3 from '../../assets/image3.png';
+import image4 from '../../assets/image4.png';
+import image5 from '../../assets/image5.png';
+import image6 from '../../assets/image6.png';
 
 function Header() {
   return (
@@ -14,10 +17,10 @@ function Header() {
         </div>
       </div>
       <div className='hidden lg:grid lg:h-[430px] lg:w-[470px] lg:grid-flow-col lg:grid-rows-8 lg:gap-2 ml-auto '>
-        <img src={image3} className='row-start-2 row-end-5' />
-        <img src={image3} className='row-start-5 row-end-8' />
-        <img src={image3} className='row-start-1 row-end-4 ' />
-        <img src={image3} className='row-start-4 row-end-7' />
+        <img src={image4} className='row-start-2 row-end-5'/>
+        <img src={image6} className='row-start-5 row-end-8'/>
+        <img src={image3} className='row-start-1 row-end-4'/>
+        <img src={image5} className='row-start-4 row-end-7'/>
       </div>
     </div>
   );
