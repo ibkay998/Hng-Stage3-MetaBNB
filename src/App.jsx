@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import { Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
