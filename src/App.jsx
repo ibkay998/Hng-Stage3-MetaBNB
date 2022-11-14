@@ -5,14 +5,14 @@ import PlaceToStay from './pages/PlaceToStay';
 
 function App() {
   return (
-    <div className='w-full'>
+    
       
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='place' element={<PlaceToStay />} />
       </Routes>
       
-    </div>
+    
   );
 }
 
