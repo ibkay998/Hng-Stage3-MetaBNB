@@ -9,7 +9,7 @@ function Header() {
         <div className='text-[38px] md:text-[56px] font-normal font-rose tracking-tight leading-tight md:leading-normal'>Rent a <span className='text-[#A02279] font-bold'>Place</span> away from <span className='text-[#A02279] font-bold'>Home</span> in the <span className='text-[#A02279] font-bold'>Metaverse</span></div>
         <div className='text-[24px] font-rose font-normal mt-[20px] md:mt-[48px]'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</div>
         <div className='flex w-full mt-[48px]'>
-            <input type="text" placeholder='Search for Location' className='border-2 text-[14px] text-[#B8B8B8] font-rose pl-[15px]  w-[390px] ' />
+            <input type="text" placeholder='Search for Location' className='border-2 rounded-tl-xl rounded-bl-xl border-r-0 text-[14px] text-[#B8B8B8] font-rose pl-[15px]  w-[390px] ' />
             <button className='w-[230px] h-[54px] bg-[#A02279] rounded-none grow-1 rounded-r-lg text-white'>Search</button>
         </div>
       </div>
