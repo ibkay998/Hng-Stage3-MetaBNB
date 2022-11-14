@@ -26,9 +26,9 @@ const theme = extendTheme({
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <ChakraProvider theme={theme}>
+  <ChakraProvider theme={theme}>
+    <BrowserRouter>
       <App />
-    </ChakraProvider>
-  </BrowserRouter>
+    </BrowserRouter>
+  </ChakraProvider>
 );

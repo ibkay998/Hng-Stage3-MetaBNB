@@ -26,7 +26,7 @@ function Navbar() {
 
     const lists = [
         {name:"Home", link:"/"},
-        {name:"Place to stay", link:"/place-to-stay"},
+        {name:"Place to stay", link:"/place"},
         {name:"NFTs", link:"#"},
         {name:"Community", link:"#"},
     ]
