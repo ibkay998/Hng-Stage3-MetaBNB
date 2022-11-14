@@ -18,18 +18,22 @@ import { ChevronDownIcon } from '@chakra-ui/icons';
 function PlaceToStay() {
   return (
     <div className='flex flex-col mt-[100px]'>
-      <div className='hidden lg:flex lg:justify-between cursor-pointer'>
+      <div className='hidden lg:flex lg:justify-between lg:items-center cursor-pointer'>
         <a>Restaurant</a>
         <a>Cottage</a>
         <a>Castle</a>
-        <a>Fantasy City</a>
+        <a>fantasy City</a>
         <a>beach</a>
-        <a>carbins</a>
+        <a>Carbins</a>
         <a>Off Grid</a>
-        <a>farm</a>
-        <div className='flex border-2 rounded-md'>
-          <input type='text' placeholder='Location' />
-          <img src={setting} alt='' />
+        <a>Farm</a>
+        <div className='flex border-2 rounded-md items-center'>
+          <button  className='w-[160px] py-[10px] pl-[14px] focus:outline-0 font-normal font-rose' >
+            <div className='flex justify-between'>
+              <p>Location</p>
+              <img src={setting} alt='' className='h-[24px]'/>
+            </div>
+            </button>
         </div>
       </div>
 
@@ -43,14 +47,14 @@ function PlaceToStay() {
               <MenuItem>Restaurant</MenuItem>
               <MenuItem>Cottage</MenuItem>
               <MenuItem>Castle</MenuItem>
-              <MenuItem>Fantasy City</MenuItem>
+              <MenuItem>f City</MenuItem>
               <MenuItem>beach</MenuItem>
-              <MenuItem>carbins</MenuItem>
+              <MenuItem>Carbins</MenuItem>
               <MenuItem>Off Grid</MenuItem>
-              <MenuItem>farm</MenuItem>
+              <MenuItem>Farm</MenuItem>
               <MenuItem>
                 <div className='flex border-2 rounded-md'>
-                  <input type='text' placeholder='Location' />
+                  <input className='focus:outline-0 focus:border-0 outline-0'  type='text' placeholder='Location' />
                   <img src={setting} alt='' />
                 </div>
               </MenuItem>
