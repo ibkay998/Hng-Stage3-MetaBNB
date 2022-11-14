@@ -2,35 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
-import { ChakraProvider,extendTheme } from '@chakra-ui/react';
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import { BrowserRouter } from 'react-router-dom';
 
 const theme = extendTheme({
-  components:{
-    Drawer:{
+  components: {
+    Drawer: {
       parts: ['dialog', 'header', 'body'],
       variants: {
         primary: {
           dialog: {
-            background: 'red', 
-          }
+            background: 'red',
+          },
         },
         secondary: {
           dialog: {
-            background: 'green'
-          }
-        }
+            background: 'green',
+          },
+        },
       },
-    }
-  }
-})
+    },
+  },
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
+  <BrowserRouter>
     <ChakraProvider theme={theme}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <App />
     </ChakraProvider>
-  
+  </BrowserRouter>
 );
