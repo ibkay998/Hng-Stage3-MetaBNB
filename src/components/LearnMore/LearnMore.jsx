@@ -7,8 +7,8 @@ function LearnMore() {
   return (
     <div className='relative  grid grid-cols-1 lg:grid-cols-2 bg-[#A02279] h-[400px] lg:h-[774px] m-auto'>
         <div className='relative flex  flex-col m-auto text-white font-rose'>
-            <p className=' font-bold  text-[48px]'>Metabnb NFTs</p>
-            <p className='leading-normal text-[18px] w-[380px] mt-[30px] z-40'>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
+            <p className=' font-bold text-[40px] lg:text-[48px]'>Metabnb NFTs</p>
+            <p className='leading-normal text-[14px] lg:text-[18px] w-[380px] mt-[30px] z-40'>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
             <button className='bg-white mx-auto py-[14px] w-[156px] mt-[58px] z-40 text-[#A02279]'>Learn more</button>
         </div>
         <div className='relative hidden lg:block '> 

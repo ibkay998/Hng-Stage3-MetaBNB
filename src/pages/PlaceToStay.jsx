@@ -28,12 +28,12 @@ function PlaceToStay() {
         <a>Off Grid</a>
         <a>Farm</a>
         <div className='flex border-2 rounded-md items-center'>
-          <button  className='w-[160px] py-[10px] pl-[14px] focus:outline-0 font-normal font-rose' >
+          <button className='w-[160px] py-[10px] pl-[14px] focus:outline-0 font-normal font-rose'>
             <div className='flex justify-between'>
               <p>Location</p>
-              <img src={setting} alt='' className='h-[24px]'/>
+              <img src={setting} alt='' className='h-[24px]' />
             </div>
-            </button>
+          </button>
         </div>
       </div>
 
@@ -47,15 +47,19 @@ function PlaceToStay() {
               <MenuItem>Restaurant</MenuItem>
               <MenuItem>Cottage</MenuItem>
               <MenuItem>Castle</MenuItem>
-              <MenuItem>f City</MenuItem>
+              <MenuItem>fantasy City</MenuItem>
               <MenuItem>beach</MenuItem>
               <MenuItem>Carbins</MenuItem>
               <MenuItem>Off Grid</MenuItem>
               <MenuItem>Farm</MenuItem>
               <MenuItem>
-                <div className='flex border-2 rounded-md'>
-                  <input className='focus:outline-0 focus:border-0 outline-0'  type='text' placeholder='Location' />
-                  <img src={setting} alt='' />
+                <div className='flex border-2 w-full rounded-md items-center'>
+                  <button className='w-full py-[10px] pl-[14px] focus:outline-0 font-normal font-rose'>
+                    <div className='flex justify-between'>
+                      <p>Location</p>
+                      <img src={setting} alt='' className='h-[24px]' />
+                    </div>
+                  </button>
                 </div>
               </MenuItem>
             </MenuList>
