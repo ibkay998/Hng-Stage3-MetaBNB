@@ -1,5 +1,5 @@
 import React from 'react';
-import PlaceList from '../../components/PlaceList/PlaceList';
+import PlaceList from '../components/PlaceList/PlaceList';
 import setting from '../../assets/setting-5.png';
 import {
   Menu,
