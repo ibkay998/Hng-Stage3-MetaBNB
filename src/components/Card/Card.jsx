@@ -4,7 +4,7 @@ import stars from "../../assets/stars.png"
 
 function Card({image}) {
   return (
-    <div className='flex flex-col w-[292px] h-[372px] rounded-lg border-2 border-[#D7D7D7] text-[12px]'>
+    <div className='flex flex-col w-[292px] h-[372px] rounded-lg cursor-pointer hover:bg-gray-100 border-2 border-[#D7D7D7] text-[12px]'>
         <div className='p-[15px]'>
             <img src={image} alt=""  />
         </div>
